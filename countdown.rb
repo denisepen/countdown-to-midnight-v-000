@@ -9,7 +9,7 @@ number = number.to_i
  "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(number)
     sleep(5)
   number = number.to_i
     while number > 0
